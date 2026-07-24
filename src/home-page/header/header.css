@@ -1,0 +1,21 @@
+.header{
+    border: 1px solid lightgray;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.heading img{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.heading{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    width: 1290px;
+}
+.p1{
+    display: flex;
+    gap: 18px;
+}
