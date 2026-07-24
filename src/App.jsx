@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Menu/>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/scratch-profile" element={<Home/>} />
         <Route path="*" element={<PageNotfound/>} />
       </Routes>
       </BrowserRouter>
