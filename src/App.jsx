@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { Route, Routes, HashRouter } from "react-router-dom"
 import Menu from "./menu-bar/menu-bar"
 import PageNotfound from "./page-notfound/page-notfound"
 import Home from "./home-page/home"
@@ -6,13 +6,13 @@ import Home from "./home-page/home"
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
       <Menu/>
       <Routes>
-        <Route path="/scratch-profile" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="*" element={<PageNotfound/>} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
